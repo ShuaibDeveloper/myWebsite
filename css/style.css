@@ -486,7 +486,7 @@ color: var(--white);
 Our Serivces Start  
 ========================================   */
 .section-services{
-  transition: all.7s linear;
+  transition: all .7s linear;
 }
 .section-services p{
   max-width: 60rem;
@@ -541,4 +541,39 @@ Our Serivces Start
   0%{border-radius: 30% 70% 46% 54% / 84% 12% 88% 16%; }
   50%{border-radius:16% 84% 16% 84% / 46% 37% 63% 54% ; }
   100%{border-radius: 30% 70% 46% 54% / 84% 12% 88% 16%;}
+}
+
+ /* ======================================== 
+Our testimonail Start  
+========================================   */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
